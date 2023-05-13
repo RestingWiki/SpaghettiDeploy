@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live Video Feed with Bounding Boxes</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <h1>Live Video Feed</h1>
+    <div class="video-container">
+      <img class="video-frame" src="{{ url_for('video_feed') }}" width="640" height="480">
+    </div>
+  </body>
+</html>
